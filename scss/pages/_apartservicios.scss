@@ -1,0 +1,37 @@
+.secapart {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+/*.apart {
+
+    align-items: center;
+
+};*/
+
+
+.tarjetaapart {
+    background-color: slategray;
+    max-height: 40vh;
+    max-width: 30vw;
+    display: inline-block;
+    margin: 5vh 3vw 5vh;
+    padding: 0.5rem 0.5rem;
+    text-size-adjust: auto;
+    text-align: center;
+    align-content: center;
+}
+
+.card {
+
+    text-align: center;
+    font-style: normal;
+}
+
+.parrafocard {
+    font-style: italic;
+}
+.orgatarjeta{width: 100vh;}
