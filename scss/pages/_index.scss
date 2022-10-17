@@ -1,2 +1,30 @@
+.cuerpoindex {
+    height: 80vh;
+    background-image: url(../assets/img/fotohotel.png);
+    background-size: cover;
+}
 
-.carrouselindex {height: 70%};
+.logoindex {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.logo1 {
+    width: 20rem;
+}
+
+
+.btn-primary {
+
+    display: flex;
+    background-color: white;
+    color: #1A5276;
+    font-weight: 600;
+    border: none;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+

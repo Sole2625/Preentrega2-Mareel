@@ -1,43 +1,22 @@
 
-.menu {
-    margin-left: auto;
-    display: flex;
-}
-
 
 header {
     background-color: #1A5276;
-    height: 20vh;
     color: white;
+    height: 10vh;
     padding: 15px;
-    display: flex;
+    display:flex;
     align-items: center;
 }
-.navbar-expand-lg{
-    justify-content:end;}
 
 .logo {
-    height: 15vh;
-    width: 15vh;
-}
-
-
-.hotelelfaro {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 200;
-    /* width: 30%; */
-}
-
-
-.menuheader {
-    font-weight: 400;
-    width: 50vh;
+   
+    height: 8vh;
     display: flex;
-    justify-content: space-around;
 }
 
-.menuarriba {
-    width: 50vh;
+nav {color: white;
     display: flex;
-    justify-content: space-around;
-}
+justify-content: end;}
+
+ul{ text-decoration: none;}

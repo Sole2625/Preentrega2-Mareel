@@ -28,91 +28,74 @@ footer {
   height: 5vh;
 }
 
-.menuabajo {
-  display: flex;
-  justify-content: space-around;
-}
-
-.menu {
-  margin-left: auto;
-  display: flex;
+.menufooter {
+  width: 40vh;
 }
 
 header {
   background-color: #1A5276;
-  height: 20vh;
   color: white;
+  height: 10vh;
   padding: 15px;
   display: flex;
   align-items: center;
 }
 
-.navbar-expand-lg {
+.logo {
+  height: 8vh;
+  display: flex;
+}
+
+nav {
+  color: white;
+  display: flex;
   justify-content: end;
 }
 
-.logo {
-  height: 15vh;
-  width: 15vh;
+ul {
+  text-decoration: none;
 }
 
-.hotelelfaro {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 200;
-  /* width: 30%; */
+.cuerpoindex {
+  height: 80vh;
+  background-image: url(../assets/img/fotohotel.png);
+  background-size: cover;
 }
 
-.menuheader {
-  font-weight: 400;
-  width: 50vh;
+.logoindex {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
-.menuarriba {
-  width: 50vh;
+.logo1 {
+  width: 20rem;
+}
+
+.btn-primary {
   display: flex;
-  justify-content: space-around;
-}
-
-.carrouselindex {
-  height: 70%;
-}
-
-.secapart {
-  display: inline;
-  justify-content: space-between;
-  display: flex;
-  height: 70vh;
-}
-
-.apart {
-  max-height: 35vh;
-  max-width: 25vw;
-  align-items: center;
-}
-
-.tarjetaapart {
-  background-color: slategray;
-  max-height: 40vh;
-  max-width: 30vw;
-  display: inline-block;
-  margin: 5vh 3vw 5vh;
-  padding: 0.5rem 0.5rem;
-  text-size-adjust: auto;
-  text-align: center;
-  align-content: center;
-}
-
-.card {
-  text-align: center;
-  font-style: normal;
-}
-
-.firma {
-  font-family: "Montserrat", sans-serif;
+  background-color: white;
+  color: #1A5276;
   font-weight: 600;
-  font-style: italic;
+  border: none;
+  border-radius: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor {
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 80%;
+}
+
+.ingquienes {
+  height: 60vh;
+}
+
+.parrafoquienes {
+  background-color: #1A5276;
+  color: white;
 }
 
 .secapart {
@@ -120,6 +103,7 @@ header {
   flex-direction: row;
   align-items: center;
   align-content: center;
+  justify-content: space-around;
 }
 
 /*.apart {
