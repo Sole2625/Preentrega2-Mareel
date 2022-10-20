@@ -2,23 +2,27 @@
     height: 80vh;
     background-image: url(../assets/img/fotohotel.png);
     background-size: cover;
+
+  
 }
-
-.logoindex {
-    display: flex;
-    justify-content: center;
-
-
-}
+.bloquelogo {display: flex;
+    justify-content: center;}
 
 .logo1 {
+     display: flex;
     width: 20rem;
+    align-items: center;
+    justify-content: center
 }
 
+.botonreservar{display: flex;
+    justify-content: center;}
+
+.h2boton{font-size: 2rem;
+}
 
 .btn-primary {
-
-    display: flex;
+display: flex;
     background-color: white;
     color: #1A5276;
     font-weight: 600;
@@ -27,4 +31,5 @@
     align-items: center;
     justify-content: center;
 }
+
 

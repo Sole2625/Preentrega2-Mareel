@@ -5,14 +5,17 @@ header {
     color: white;
     height: 10vh;
     padding: 15px;
-    display:flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+   
 }
 
 .logo {
    
     height: 8vh;
-    display: flex;
+
+    align-items: center;
 }
 
 nav {color: white;
@@ -20,3 +23,13 @@ nav {color: white;
 justify-content: end;}
 
 ul{ text-decoration: none;}
+
+
+
+.menuarriba{ display: grid;
+    justify-content: end;
+    align-items: center;}
+
+.botonlogo {display: grid;
+    width: 30vh;
+}

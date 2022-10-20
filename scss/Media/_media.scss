@@ -1,10 +1,95 @@
-@media (min-width: 990px){
-    .secapart{
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
+@media (max-width: 750px) {
+
+
+    /*header;*/
+ 
+.header2{position: absolute;
+z-index: 1034;
+justify-content: center;}
+
+
+.nav-item{ background-color: #1A5276;
+justify-content: center;}
+
+.navbar-collapse{ text-align: center;
+}
+
+   /*footer;*/
+footer {
+    position: end;
+    
+}
+
+
+    /*Index;*/
+
+
+    .cuerpoindex {
+        height: 80vh;
+        background-image: url(../assets/img/fotohotelresponsive.png);
+        background-size: cover;
     }
-    .orgatarjeta{height: auto;}
+
+    /*Quienes somos;*/
+    .contenedorquienes {
+        height: auto;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows:20% auto auto;
+        justify-content: stretch;
+        align-items: stretch;
+
+    }
+
+    .gespacio {
+        height: 15vh;
+        grid-column: 1/2;
+    }
+
+    /*Aparts;*/
+
+    .contenedorapart {
+        height: 90vh;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 15% 40% 40% 5%;
+        justify-content: stretch;
+        align-items: stretch;
+        gap: 1rem;
+    }
+
+    .gespacioapart {
+        grid-column: 1/3;
+        align-items: center;
+    }
+
+    .parrafocard {
+        font-style: italic;
+        font-size: 0, 5rem;
+    }
+h5{font-size: 1rem; }
+
+    .card {
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+
+    }
+
+    /*Servicios;*/
+
+    .contenedorserv{
+        height: 90vh;
+        width: 100%;
+    gap: 0,2rem;
+    }
+ 
+    
+/*reservas;*/
+.mainformulario {
+    align-content: center;
+    height: 90vh;
+}
+.espacioreservas{height: 20%;}
 
 }
- 
