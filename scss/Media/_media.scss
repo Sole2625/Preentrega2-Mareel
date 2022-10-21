@@ -67,7 +67,7 @@ footer {
         font-style: italic;
         font-size: 0, 5rem;
     }
-h5{font-size: 1rem; }
+h3{font-size: 1rem; }
 
     .card {
         align-items: center;
@@ -78,12 +78,31 @@ h5{font-size: 1rem; }
 
     /*Servicios;*/
 
-    .contenedorserv{
-        height: 90vh;
-        width: 100%;
-    gap: 0,2rem;
-    }
- 
+.contenedorserv{
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+   }
+
+.gespacioserv{
+    grid-column: 1/2;
+    display: grid;
+}
+
+.cardserv{
+    display: grid;
+    align-items: center;
+    
+}
+.imgserv{
+    width: 60%;
+   
+}
+
     
 /*reservas;*/
 .mainformulario {
