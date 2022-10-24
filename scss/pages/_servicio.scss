@@ -1,26 +1,6 @@
-.contenedorserv{
-    height: 80vh;
-    display: grid;
-grid-template-columns: 33% 33% 33%; 
-grid-template-rows: 10% 70% 10%;
-justify-content: stretch;
-align-items: stretch;
-gap: 3rem;
-}
+.cuerposervicios{height: 80vh;}
+.carousel-inner{height: 60vh;}
+.espacioserv{height: 5vh;}
 
-
-.gespacioserv{grid-column: 1/4;
-align-items: center;}
-
-
-.cardserv {
-    display: grid;
-   
-    justify-content: center;
-    text-align: center;
-    font-style: normal;
-    align-items: center;
-}
-.imgserv{width: 80%;
-}
-
+.h3serv{background-color: #1A5276;
+color: white;}

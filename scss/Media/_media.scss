@@ -78,30 +78,19 @@ h3{font-size: 1rem; }
 
     /*Servicios;*/
 
-.contenedorserv{
 
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: auto auto auto auto;
+    .cuerposervicios{height: 90vh;
+    }
+    .espacioserv{height: 10%;}
+    .tituloserv{height:10vh;}
+.carrouselserv{height: 40vh;
+    display: flex;
     justify-content: center;
-    align-items: center;
-    width: 90%;
+    }
+    .carousel{height: auto;
    }
-
-.gespacioserv{
-    grid-column: 1/2;
-    display: grid;
-}
-
-.cardserv{
-    display: grid;
-    align-items: center;
-    
-}
-.imgserv{
-    width: 60%;
-   
-}
+    .carousel-inner{height: 90vh;
+        justify-content: center;}
 
     
 /*reservas;*/

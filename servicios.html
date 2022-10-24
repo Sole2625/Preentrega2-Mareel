@@ -18,10 +18,12 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
 
-        <!--SEO-->
+    <!--SEO-->
     <title>Hotel El Faro de Carpier | La mejor experiencia en las Sierras</title>
-    <meta nome="descripcion" content="Los esperamos en el paraiso de las Sierras Cordobesas para que sisfrutes nuestros servicios."></meta>
-    
+    <meta nome="descripcion"
+        content="Los esperamos en el paraiso de las Sierras Cordobesas para que sisfrutes nuestros servicios.">
+    </meta>
+
 </head>
 
 <body>
@@ -34,38 +36,38 @@
                 <img class="logo" src="./assets/img/logoheader.png" />
             </a></div>
 
-            <section class="menuarriba">
-                <nav class="navbar navbar-expand-lg navbar-dark justify-content-end">
-              
+        <section class="menuarriba">
+            <nav class="navbar navbar-expand-lg navbar-dark justify-content-end">
 
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link " href="./quienessomos.html">Quienes somos</a>
-                            </li>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="./apart.html">Apart</a>
-                            </li>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link " href="./quienessomos.html">Quienes somos</a>
+                        </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="./servicios.html">Servicios</a>
-                            </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./apart.html">Apart</a>
+                        </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="./reservas.html">Reservas</a>
-                            </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./servicios.html">Servicios</a>
+                        </li>
 
-                        </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./reservas.html">Reservas</a>
+                        </li>
 
-                    </div>
+                    </ul>
+
+                </div>
                 </div>
             </nav>
         </section>
@@ -73,43 +75,65 @@
 
     <!--Cuerpo-->
     <main>
+
         <div class="container">
 
-            <section class="contenedorserv">
-
-                <div class="gespacioserv">
+            <section class="cuerposervicios">
+                <div class="espacioserv"></div>
+                <div class="espacioserv"></div>
+                <div class="tituloserv">
                     <h1 style="display: none;">Servicios</h1>
-                    <h2>Servicios</h2>
+                    <h2 class="titserv">Servicios</h2>
+
                 </div>
 
-                <div class="cardserv">
-                    <img class="imgserv" src="./assets/img/desayuno.jpg">
-                    <div class="card-body">
-                        <h3>Desayunos y Meriendas</h3>
+                <div class="carrouselserv">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="./assets/img/desayuno.jpg" class="d-block w-100" alt="Desayuno y Merienda">
+                                <div class="carousel-caption d-md-block">
+                                    <h3 class="h3serv">Desayunos y Meriendas</h3>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="./assets/img/almuerzo.jpg" class="d-block w-100" alt="Almuerzos y Cenas">
+                                <div class="carousel-caption d-md-block">
+                                    <h3 class="h3serv">Almuerzos y Cenas</h3>
+
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="./assets/img/pileta.jpg" class="d-block w-100" alt="Pileta">
+                                <div class="carousel-caption d-md-block">
+                                    <h3 class="h3serv">Pileta</h3>
+                                </div>
+                            </div>
+
+
+
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                              </button>
+                              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                              </button>
+                        </div>
+
                     </div>
                 </div>
-
-
-                <div class="cardserv">
-                    <img class="imgserv" src="./assets/img/almuerzo.jpg">
-                    <div class="card-body">
-                        <h3 class="card-title">Almuerzos y Cenas</h3>
-                    </div>
-                </div>
-
-
-                <div class="cardserv">
-                    <img class="imgserv" src="./assets/img/pileta.jpg">
-                    <div class="card-body">
-                        <h3 class="card-title">Pileta</h3>
-                    </div>
-                </div>
-
-            
-
+                <div class="espacioserv"></div>
             </section>
-        </div>
-
 
     </main>
 
