@@ -148,7 +148,7 @@ ul {
 }
 
 .card {
-  height: 100%;
+  height: 40vh;
   justify-content: center;
   text-align: center;
   font-style: normal;
@@ -160,6 +160,7 @@ ul {
 }
 
 .apart {
+  padding: 2rem;
   align-items: center;
   width: 80%;
 }
@@ -182,10 +183,6 @@ ul {
   }
   .navbar-collapse {
     text-align: center;
-  }
-  /*footer;*/
-  footer {
-    position: end;
   }
   /*Index;*/
   .cuerpoindex {
@@ -222,37 +219,34 @@ ul {
   }
   .parrafocard {
     font-style: italic;
-    font-size: 0, 5rem;
+    font-size: 9pt;
   }
   h3 {
     font-size: 1rem;
   }
   .card {
+    height: 35vh;
+    width: 25vh;
     align-items: center;
     justify-content: center;
+  }
+  .apart {
+    padding: -1rem;
+    align-items: center;
     width: 80%;
   }
   /*Servicios;*/
   .cuerposervicios {
     height: 90vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 15% 10% 65% 10%;
+    justify-content: stretch;
+    align-items: stretch;
+    gap: 1rem;
   }
-  .espacioserv {
-    height: 10%;
-  }
-  .tituloserv {
-    height: 10vh;
-  }
-  .carrouselserv {
-    height: 40vh;
-    display: flex;
-    justify-content: center;
-  }
-  .carousel {
-    height: auto;
-  }
-  .carousel-inner {
-    height: 90vh;
-    justify-content: center;
+  .carousel, .carousel-inner, .carousel-control-prev, .carousel-control-next {
+    height: 30vh;
   }
   /*reservas;*/
   .mainformulario {
@@ -263,21 +257,27 @@ ul {
     height: 20%;
   }
 }
-.cuerposervicios {
-  height: 80vh;
-}
-
-.carousel-inner {
-  height: 60vh;
-}
-
-.espacioserv {
-  height: 5vh;
-}
-
-.h3serv {
+.textoserv {
   background-color: #1A5276;
-  color: white;
+  position: end;
 }
+
+.espacioserv1 {
+  height: 1vh;
+  display: flex;
+}
+
+.espacioserv2 {
+  height: 1vh;
+  display: flex;
+}
+
+/*Servicios
+.carousel, .carousel-inner, .carousel-control-prev, .carousel-control-next {
+    height: 70vh;
+    width: auto;
+  }
+
+;*/
 
 /*# sourceMappingURL=style.css.map */

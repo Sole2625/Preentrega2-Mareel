@@ -1,6 +1,22 @@
-.cuerposervicios{height: 80vh;}
-.carousel-inner{height: 60vh;}
-.espacioserv{height: 5vh;}
 
-.h3serv{background-color: #1A5276;
-color: white;}
+.textoserv {
+    background-color: #1A5276;
+    position: end ;
+}
+.espacioserv1 {
+    height: 1vh;
+    display: flex;
+}
+
+.espacioserv2 {
+    height: 1vh;
+    display: flex;
+}
+
+  /*Servicios
+.carousel, .carousel-inner, .carousel-control-prev, .carousel-control-next {
+    height: 70vh;
+    width: auto;
+  }
+
+;*/

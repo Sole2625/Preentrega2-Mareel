@@ -2,23 +2,22 @@
 
 
     /*header;*/
- 
-.header2{position: absolute;
-z-index: 1034;
-justify-content: center;}
+
+    .header2 {
+        position: absolute;
+        z-index: 1034;
+        justify-content: center;
+    }
 
 
-.nav-item{ background-color: #1A5276;
-justify-content: center;}
+    .nav-item {
+        background-color: #1A5276;
+        justify-content: center;
+    }
 
-.navbar-collapse{ text-align: center;
-}
-
-   /*footer;*/
-footer {
-    position: end;
-    
-}
+    .navbar-collapse {
+        text-align: center;
+    }
 
 
     /*Index;*/
@@ -35,7 +34,7 @@ footer {
         height: auto;
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows:20% auto auto;
+        grid-template-rows: 20% auto auto;
         justify-content: stretch;
         align-items: stretch;
 
@@ -65,39 +64,54 @@ footer {
 
     .parrafocard {
         font-style: italic;
-        font-size: 0, 5rem;
+        font-size: 9pt;
     }
-h3{font-size: 1rem; }
+
+    h3 {
+        font-size: 1rem;
+    }
 
     .card {
+        height: 35vh;
+        width: 25vh;
         align-items: center;
         justify-content: center;
-        width: 80%;
+
 
     }
+
+    .apart {
+        padding: -1rem;
+        align-items: center;
+        width: 80%;}
 
     /*Servicios;*/
 
+    .cuerposervicios {
+        height: 90vh;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 15% 10% 65% 10%;
+        justify-content: stretch;
+        align-items: stretch;
+        gap: 1rem;
+    }
 
-    .cuerposervicios{height: 90vh;
-    }
-    .espacioserv{height: 10%;}
-    .tituloserv{height:10vh;}
-.carrouselserv{height: 40vh;
-    display: flex;
-    justify-content: center;
-    }
-    .carousel{height: auto;
-   }
-    .carousel-inner{height: 90vh;
-        justify-content: center;}
 
     
-/*reservas;*/
-.mainformulario {
-    align-content: center;
-    height: 90vh;
-}
-.espacioreservas{height: 20%;}
+    .carousel, .carousel-inner, .carousel-control-prev, .carousel-control-next {height: 30vh;}
+
+
+
+
+    /*reservas;*/
+    .mainformulario {
+        align-content: center;
+        height: 90vh;
+    }
+
+    .espacioreservas {
+        height: 20%;
+    }
 
 }
